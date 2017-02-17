@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/raizFragmentVisualizarTexto"
+    android:background="@color/colorAccent"
+    tools:context="com.android.alejandra.ejer5comunicatefragments.FragmentVisualizaResultado">
+
+
+    <TextView android:id="@+id/tvTextoFormateado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Texto Con formato" />
+
+</FrameLayout>
